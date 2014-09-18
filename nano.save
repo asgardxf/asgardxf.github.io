@@ -1,8 +1,8 @@
 for good in soup.find_all(class_='good-row'):
-if 'basket' in good['class']: break
-good["itemprop"]="itemListElement"
-good["itemscope"] = ""
-good["itemtype"]="http://schema.org/Product"
-good.find('p')['itemprop'] = 'name'
-good.find_all('img')[0]["itemprop"] = 'image'
-good.find_all(class_="availability")[0]["itemprop"] = 'description'
+ if 'basket' in good['class']: continue
+ good["itemprop"]="itemListElement"
+ good["itemscope"] = ""
+ good["itemtype"]="http://schema.org/Product"
+ good.find('p')['itemprop'] = 'name'
+ good.find_all('img')[0]["itemprop"] = 'image'
+ good.find_all(class_="availability")[0]["itemprop"] = 'description'
