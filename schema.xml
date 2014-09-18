@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<site
+	xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xmlns='http://interactive-answers.webmaster.yandex.ru/schemas/site/0.0.1'
+	xsi:schemaLocation='http://interactive-answers.webmaster.yandex.ru/schemas/site/0.0.1'>
+	
+	<title>Поиск деталей</title>
+	<description>Выбор деталей на сайте kardanservice.ru</description>
+ 	<requestMethod>GET</requestMethod> 
+	<rootUrl>http://asgardxf.neocities.org/fromroot.html</rootUrl>
+	<protocol>HTTP</protocol>
+	<resource>
+		<fixed name="http://asgardxf.neocities.org/fromroot.html" terminal="true" separator="/">
+		</fixed>
+	</resource> 
+	<filters>
+	  <constant key="foo">
+	    <description caption="bar"><nop/></description>
+	  </constant>
+	</filters> 
+	<!--<metrikaCounterId></metrikaCounterId>
+	<metricaCounterId></metricaCounterId>-->
+
+</site>
