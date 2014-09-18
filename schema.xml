@@ -13,10 +13,10 @@ and open the template in the editor.
 	<title>Поиск деталей</title>
 	<description>Выбор деталей на сайте kardanservice.ru</description>
  	<requestMethod>GET</requestMethod> 
-	<rootUrl>http://asgardxf.neocities.org/fromroot.html</rootUrl>
+	<rootUrl>http://asgardxf.github.io/krest-m.html</rootUrl>
 	<protocol>HTTP</protocol>
 	<resource>
-		<fixed name="http://asgardxf.neocities.org/fromroot.html" terminal="true" separator="/">
+		<fixed name="http://asgardxf.github.io/krest-m.html" terminal="true" separator="/">
 		</fixed>
 	</resource> 
 	<filters>
